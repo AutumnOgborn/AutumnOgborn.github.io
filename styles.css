@@ -7,6 +7,7 @@ body{
 }
 h1{
     color:gold;
+    border-bottom:1px solid;
 }
 p{
     color:goldenrod;
@@ -16,4 +17,5 @@ main{
     border-color:gold;
     padding:30px;
     padding-top:0px;
+    padding-bottom:10px;
 }
