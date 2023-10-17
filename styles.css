@@ -1,0 +1,17 @@
+body{
+    background-color:darkgreen;
+    font-family:cursive;
+    margin:20%;
+    text-align: center;
+    align-items: center;
+}
+h1{
+    color:gold;
+}
+p{
+    color:goldenrod;
+}
+main{
+    border-style:double;
+    border-color:gold;
+}
