@@ -13,5 +13,6 @@ p{
 }
 main{
     border-style:double;
+    border-spacing: 10px;
     border-color:gold;
 }
