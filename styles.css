@@ -15,4 +15,5 @@ main{
     border-style:double;
     border-color:gold;
     padding:30px;
+    padding-top:0px;
 }
