@@ -33,3 +33,14 @@ img{
 a{
     color:#1F9AFE;
 }
+.menu{
+    position:absolute;
+    left:0;
+    top:0;
+}
+.flexdown{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
