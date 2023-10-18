@@ -34,13 +34,22 @@ a{
     color:#1F9AFE;
 }
 .menu{
-    position:absolute;
-    left:0;
-    top:0;
+    position:fixed;
+    left:10px;
+    top:5px;
+    background-color:darkred;
+    border:4px double gold;
+}
+.menu>a{
+    color:gold;
 }
 .flexdown{
     display:flex;
     justify-content: center;
     flex-direction: column;
 
+}
+ul{
+    text-align: left;
+    display:inline-block;
 }
