@@ -1,9 +1,9 @@
 body{
-    background-color:darkgreen;
     font-family:cursive;
     margin:20%;
     text-align: center;
     align-items: center;
+    background-image:linear-gradient(to bottom left, darkgreen,darkred);
 }
 h1{
     color:gold;
@@ -15,9 +15,12 @@ p{
 main{
     border-style:double;
     border-color:gold;
+    background-color: darkgreen;
     padding:30px;
     padding-top:0px;
     padding-bottom:10px;
+    text-shadow:4px 4px 5px black;
+    box-shadow: 10px 10px 5px black;
 }
 .flex{
     display:flex;
@@ -37,11 +40,17 @@ a{
     position:fixed;
     left:10px;
     top:5px;
-    background-color:darkred;
-    border:4px double gold;
+ 
+    padding: 10px;
+
 }
 .menu>a{
+    background-color: darkred;
     color:gold;
+    text-shadow:3px 3px 5px black;
+    margin:5px;
+    border:4px double gold;
+    box-shadow:10px 10px 5px black;
 }
 .flexdown{
     display:flex;
