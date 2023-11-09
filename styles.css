@@ -5,7 +5,7 @@ body{
     align-items: center;
     background-image:linear-gradient(to bottom left, darkgreen,darkred);
 }
-h1{
+h1,h2{
     color:gold;
     border-bottom:1px solid;
 }
