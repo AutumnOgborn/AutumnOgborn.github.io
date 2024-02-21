@@ -1,2 +1,71 @@
 Project Log:
-//log goes here
+09/02/2023 1h researching
+09/25/2023 1h researching
+09/29/2023 1h setting environment
+10/03/2023 1h practicing 
+10/06/2023 3h practicing 
+10/11/2023 1h researching
+10/12/2023 1h researching/practicing 
+10/13/2023 1h practicing/ researching
+10/14/2023 2h practicing/researching 
+10/17/2023 2h working on portfolio
+11/06/2023 1h looking for target
+11/10/2023 3h testing
+11/17/2023 3h testing
+11/25/2023 1h testing
+11/29/2023 1h research
+11/30/2023 2h research
+12/01/2023 2h research 
+12/13/2023 2h portfolio
+12/14/2023 1h portfolio 
+12/18/2023 2h portfolio 
+12/20/2023 1h portfolio 
+12/23/2023 2h learning
+12/26/2023 3h learning 
+12/29/2023 2h learning/researching 
+01/01/2024 6h settin up environment
+01/02/2024 2h setting up environment 
+01/04/2024 2h portfolio 
+01/05/2024 2h portfolio 
+01/06/2024 5h learning 
+01/08/2024 2h portfolio 
+01/09/2024 1h education
+01/10/2024 1h portfolio 
+01/12/2024 4h research
+01/13/2024 5h research
+01/14/2024 2h research 
+01/15/2024 6h setup
+01/16/2024 2h setup
+01/17/2024 5h learn & setup
+01/18/2024 2h essay & learn
+01/19/2024 2h learn & setup
+01/20/2024 2h learn & setup
+01/21/2024 8h learn & setup
+01/22/2024 7h learn
+01/23/2024 2h setup
+01/24/2024 6h learn & setup 
+01/25/2024 2h learn
+01/26/2024 2h learn
+01/27/2024 6h setup
+01/28/2024 5h learn
+01/29/2024 2h learn
+01/30/2024 4h learn & setup
+01/31/2024 4h learn & setup
+02/01/2024 3h learn & setup
+02/02/2024 8h learn 
+02/03/2024 7h learn
+02/04/2024 5h learn
+02/05/2024 1h learn 
+02/06/2024 11h learn
+02/07/2024 1h learn
+02/08/2024 1h reqs
+02/09/2024 5h setup & reqs & learn
+02/11/2024 1h setup & learn
+02/12/2024 5h reqs & setup
+02/13/2024 4h learn
+02/14/2024 1h learn
+02/15/2024 5h learn & reqs
+02/16/2024 3h setup
+02/17/2024 2h reqs
+02/19/2024 5h setup
+02/21/2024 2h reqs
