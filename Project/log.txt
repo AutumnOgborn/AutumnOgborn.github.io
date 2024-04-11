@@ -1,5 +1,4 @@
-Project Log:
-09/02/2023 1h researching
+09/02/2023 1 h researching
 09/25/2023 1h researching
 09/29/2023 1h setting environment
 10/03/2023 1h practicing 
@@ -69,3 +68,40 @@ Project Log:
 02/17/2024 2h reqs
 02/19/2024 5h setup
 02/21/2024 2h reqs
+02/23/2024 3h learn & reqs
+02/24/2024 1h reqs
+02/25/2024 5h learn
+02/26/2024 4h reqs & learn
+02/27/2024 5h reqs & learn
+02/28/2024 4h reqs & learn
+02/29/2024 3h reqs
+03/01/2024 4h reqs & learn
+03/02/2024 6h learn
+03/03/2024 5h learn
+03/04/2024 6h learn
+03/05/2024 1h learn
+03/06/2024 7h learn
+03/07/2024 1h learn
+03/08/2024 2h learn
+03/10/2024 8h learn
+03/11/2024 2h learn
+03/12/2024 2h learn
+03/13/2024 5h learn
+03/14/2024 1h learn
+03/15/2024 3h learn
+03/16/2024 4h learn
+03/17/2024 2h learn
+03/18/2024 2h learn
+03/19/2024 2h learn
+03/20/2024 4h learn
+03/21/2024 2h learn
+03/22/2024 2h learn
+03/23/2024 5h learn
+03/24/2024 5h learn
+03/25/2024 1h learn
+03/27/2024 6h learn
+03/30/2024 2h learn
+03/31/2024 2h learn
+04/01/2024 2h learn & reqs
+04/03/2024 3h reqs
+04/04/2024 2h testing
