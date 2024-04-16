@@ -12,7 +12,6 @@ function Start(){
 menuHTTP.onreadystatechange=function(){
     if(this.readyState==4 && this.status==200)
         addMenu(menuHTTP.responseText)
-
 }
 
 function addMenu(menuHTML){
@@ -23,11 +22,6 @@ function addMenu(menuHTML){
     let finalHTML = menuStart + makeBreadcrumb() + menuEnd;
     console.log(finalHTML);
     menu.innerHTML=finalHTML;
-
-
-
-
-
 }
 function makeBreadcrumb(){
     //let breadcrumb = document.getElementById('menu-bar-breadcrumb');
@@ -67,27 +61,57 @@ logHTTP.onreadystatechange=function(){
     {
         addHours(logHTTP.responseText)
     }
-
 }
 
 function addHours(log){
+    let learnElement = document.getElementById('learn');
+    let reqsElement = document.getElementById('reqs');
+    let testingElement = document.getElementById('testing');
+    let setupElement = document.getElementById('setup');
     let hoursElement = document.getElementById('hours');
+    let hoursArray = log.split("\r\n");
     const searchRE = /[0-9][0-9]*h/g;
     let num = 0;
     let next;
+    let hours = {
+        learn: 0,
+        reqs: 0,
+        testing: 0,
+        setup: 0
+    }
+    
 
     console.log("Doing regex now")
-
-    do {
-        next = /[0-9]*/.exec(searchRE.exec(log));
-        if(parseInt(next) > 0){
-            num += parseInt(next);
-            console.log(`num: ${num} next: ${next}`);
+    hoursArray.forEach((line, i) => {
+        let contains = {
+            learn: /learn/.test(line),
+            reqs: /reqs/.test(line),
+            testing: /testing/.test(line),
+            setup: /setup/.test(line)
         }
-
-    }while(parseInt(next) > 0)
+        let lineHours = parseInt(/[0-9]*/.exec(searchRE.exec(log)));
+        num += lineHours;
+        if (contains.learn){
+            hours.learn += lineHours;
+        }
+        if (contains.reqs){
+            hours.reqs += lineHours;
+        }
+        if (contains.testing){
+            hours.testing += lineHours;
+        }
+        if (contains.setup){
+            hours.setup += lineHours;
+        }
+    })
+    console.log(hours);
+    console.log(num);
 
     hoursElement.innerText = num + 'h';
+    learnElement.innerText = hours.learn + 'h';
+    reqsElement.innerText = hours.reqs + 'h';
+    testingElement.innerText = hours.testing + 'h';
+    setupElement.innerText = hours.setup + 'h';
 }
 
 window.onload=Start;
